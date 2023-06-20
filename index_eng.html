@@ -1,323 +1,507 @@
-<!DOCTYPE html>
-<html lang="zh-Hant">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!--bootstrap css 4.6.2-->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
-    <!--style CSS-->
-    <link rel="stylesheet" href="homestyle.css">
-    <!--bootstrap JS 4.6.2-->
-    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.min.js" integrity="sha384-+sLIOodYLS7CIrQpBjl+C7nPvqq+FbNUBDunl/OZv93DB7Ln/533i8e/mZXLi/P+" crossorigin="anonymous"></script>
-    <!--google font-->
-    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;700&display=swap" rel="stylesheet">
-    <!--fontawesome-->
-  <script src="https://kit.fontawesome.com/daba473204.js" crossorigin="anonymous"></script>
+/* CSS Setting of Header*/
 
-    
-    <title>HKBU．ASHWORTH Golf Day 2023<br>HKBU Golf Day 20th Anniversary Charity Cup</title>
-</head>
+.htitle {
+  font-size: 19px;
+  color: #a59561;
+  font-weight: bold;
+  text-align: center;
+  line-height: 1.2;
+  font-family: 'Open Sans', 'Microsoft JhengHei', sans-serif;
+}
 
-<body>
-  <!--Header-->
-  <header class="header-section">
-    <!-- HEADER CENTER -->
-    <div class="header-center p-3">
-        <div class="container">
-            <div class="row">
-                <div class="col-xl-4 col-lg-4 col-md-4 col-sm-6 col-12 d-flex justify-content-end align-items-center c-center">
-                    <div class="logo">
-                        <a href="https://www.hkbu.edu.hk/en.html" target="_blank">
-                            <img src="HKBU-logo.png" alt="香港浸會大學">
-                        </a>
-                        
-                    </div>
-                </div>
-                <div class="col-xl-4 col-lg-4 col-md-4 col-sm-6 col-12 d-flex justify-content-center align-items-center c-center">
-                     <h3 class="htitle">HKBU．ASHWORTH Golf Day 2023<br>HKBU Golf Day 20th Anniversary Charity Cup</h3>
-                </div>
-                <div class="col-xl-4 col-lg-4 col-md-4 col-sm-6 col-12 d-flex align-items-center c-center">
-                    <div class="logo2">
-                            <a href="https://hk.ashworthgolf.com/zh-hk" target="_blank"><img src="AW-logo.jpg" alt="ASHWORTH"></a>
-                    </div>
-                    <div class="login-btn">
-                        <a href="index.html" class="btn btn-button btn-button-2a blue-bg2">中文</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- END HEADER CENTER -->
-    <!-- NAVBAR -->
-    <div class="navbar-wrapper">
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
-          <div class="container">
+.logo img{
+  width: 100%; /* 調整最大寬度 */
+  margin-bottom: 20px;
+  
+}
 
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav"
-              aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
-              <ul class="navbar-nav">
-                <li class="nav-item active">
-                  <a class="nav-link" href="index_eng.html"><h6>Home</h6></a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="committee_eng.html"><h6>Organising Committee</h6>
-                    </a>
-                </li>
-                <li class="nav-item dropdown">
-                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true"
-                    aria-expanded="false">
-                    <h6>Event Details</h6>
+.logo2 img{
+  width: 98%; /* 調整最大寬度 */
+}
 
-                  </a>
-                  <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                    <a class="dropdown-item" href="summary_eng.html"><h6>General Information</h6>
-                      </a>
-                    <a class="dropdown-item" href="field_eng.html"><h6>Course Information</h6>
-                      </a>
-                    <a class="dropdown-item" href="rules_eng.html"><h6>Format of Play & Rules</h6>
-                      </a>
-                  </div>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="final- 2023Sp-Details-en-new.pdf"><h6>Sponsorship Details</h6></a>
-                </li>
-                
-                <li class="nav-item">
-                  <a class="nav-link" href="Acknowledgement_eng.html"><h6>Acknowledgement</h6>
-                    </a>
-                </li>
-                <li class="nav-item dropdown">
-                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true"
-                    aria-expanded="false">
-                  <h6>2022 Event Highlights</h6>
+.login-btn a {
+  font-size: 14px;
+  color: #444;
+  background-color: #ffffff;
+  border-color: #ffffff;
+  font-family: "Open Sans", "Microsoft JhengHei", sans-serif;
+  font-weight: 700;
+  padding: 10px,10px;
+}
 
-                  </a>
-                  <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                    <a class="dropdown-item" href="#">eNews</a>
-                    <a class="dropdown-item" href="#">Winners’List </a>
-                    <a class="dropdown-item" href="#">Winners' Scores & Rankings</a>
-                    <a class="dropdown-item" href="#">Photo Gallery </a>
-                    <a class="dropdown-item" href="#">Newspaper Supplement A</a>
-                    <a class="dropdown-item" href="#">Newspaper Supplement B
-                      </a>
-                  </div>
-                </li>
-              </ul>
-            </div>
-          </div>
-        </nav>
-      </div>
-
-  <!-- END NAVBAR -->
-   <!--Header END-->
-  <!--slider-->
-  <section id="intro">
-    <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
-        <ol class="carousel-indicators">
-          <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
-          <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
-          <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
-        </ol>
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            
-            <img src="Eng_Banner.png" class="d-block w-100" alt="firstslide">
-            
-          
-            <div class="carousel-caption d-md-block">
-                <div class="container">
-                    <div class="row">
-                      <div class="col-md-12"><br><br><br>
-                       
-                         </div>
-                    </div>
-                  </div>
-            </div>
-          </a>
-          </div>
-          <div class="carousel-item">
-            <a href="https://youtu.be/WZb6nvj8cts">
-            <img src="banner 2.png" class="d-block w-100" alt="firstslide">
-            <div class="carousel-caption d-md-block">
-                <div class="container">
-                    <div class="row">
-                      <div class="col-md-12">
-                       
-                      </div>
-                    </div>
-                  </div>
-            </div>
-          </a>
-          </div>
-          <div class="carousel-item">
-            <a href="2023_en_Sponsorship Form.pdf">
-            <img src="Banner3 加立即報名.jpg" class="d-block w-100" alt="firstslide">
-            <div class="carousel-caption d-md-block">
-                <div class="container">
-                    <div class="row">
-                      <div class="col-md-12">
-                        <h3>HKBU．ASHWORTH Golf Day 2023<br>HKBU Golf Day 20th Anniversary Charity Cup</h3>
-                        <h5>1 December 2023 (Friday)</h5>
-                        <h3>Sponsor and sign up now</h3>
-                      </div>
-                    </div>
-                  </div>
-            </div>
-          </a>
-          </div>
-        </div>       
-      </div>
-    </section>
-    
-    <!--slider END-->
-    <!--subscrib-area-->
-
-    <div class="subscrib-area">
-      <div class="container">
-        <div class="row">
-          <div class="col-xl-7 col-lg-7 col-md-7 col-sm-8 col-12 d-flex align-items-center c-center">
-            <h2>Make a Sponsorship Now!</h2>
-          </div>
-          <div class="col-xl-5 col-lg-5 col-md-5 col-sm-4 col-12 d-flex align-items-center justify-content-end c-center">
-            <a href="2023_en_Sponsorship Form.pdf" target="_blank" class="btn btn-primary"><i class="fa-sharp fa-solid fa-download"></i> Download Sponsorship Form</a>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <!--subscrib-area END-->
-    <!--about section-->
-    <div class="aboutsection">
-      <div class="container">
-          <div class="row">
-              <div class="col-xl-7 col-lg-7 col-md-12 col-sm-12 col-12">
-                  <div class="about-contants">
-                      <div class="about-content">
-                          <h3 class="hcolorhtitle3">HKBU．ASHWORTH Golf Day 2023<br>HKBU Golf Day 20th Anniversary Charity Cup</h3><h4 class="hcolor2">1 December 2023 (Friday)</h4><br>
-                            <p class="t-justify highcolorbfont4">Eden Course, The Hong Kong Golf Club, Fanling, N.T.<br>Format of Play: New New Peoria System</p>
-                            <p class="t-justify bfont2">Hong Kong Baptist University will organise HKBU．ASHWORTH Golf Day 2023 - HKBU Golf Day 20th Anniversary Charity Cup at The Hong Kong Golf Club in Fanling this year. The event aims to raise funds for the "
-                              <a class="blinks" href="https://foundation.hkbu.edu.hk/en" target="_blank"><span class="highcolorbfont3"><strong>Hong Kong Baptist University Foundation</strong></span></a>"
-                              <span class="highcolorbfont5">in support of the University’s strategic development, particularly the six interdisciplinary research laboratories for expanding research strengths, and the provision of scholarships for the needy students to participate in the “Extended Study Programme” in Greater Bay Area (GBA), to enhance their understanding of and future competitiveness in the GBA.</span>
-                                <span class="t-justify bfont2">The event also provides a valuable opportunity for participants to meet old friends and make new acquaintances whilst golfing in a delightful and relaxing setting.</span></p>
-                            <p class="t-justify bfont2">You are welcome to participate in the Golf Day on an individual or a team basis and your team can be named after a corporation, an organisation or an association.<span class="highcolorbfont5">Payment by 8 September 2023 (Friday) will enjoy an Early Bird Discount.</span></p>
-                            <p class="t-justify bfont2">For more details, please visit the other sections of this website. Thank you. </p>
-                      </div>
-                  </div>
-              </div>
-              <div class="col-xl-5 col-lg-5 col-md-12 col-sm-12 col-12 pt-3">
-                  <div class="about-img">
-                      <img src="home_01.jpg" alt="">
-                  </div>
-              </div>
-          </div>
-      </div>
-    </div>
-    <!--about section END-->
-    <!--Highlight section-->
-    <div class="service-inner pt-80 pb-5">
-      <div class="container">
-          <div class="row">
-              <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6 sm-50 col-12">
-                  <div class="service-item">
-                      <div class="service-img">
-                          <img src="For 2022 event highlights.JPG" alt="">
-                      </div>
-                      <div class="service-contents">
-                          <div class="service-icon">
-                              <div class="service-bg"></div>
-                              <i class="fa fa-star-o"></i>
-                          </div>
-                          <div class="service-content">
-                              <a href="https://foundation.hkbu.edu.hk/zh/golfday2022" class="popin" target="_blank">2022<br>Event Highlights</a>
-                          </div>
-                      </div>
-                  </div>
-              </div>
-              <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6 sm-50 col-12">
-                  <div class="service-item">
-                      <div class="service-img">
-                          <img src="For event gallery.png" alt="">
-                      </div>
-                      <div class="service-contents">
-                          <div class="service-icon">
-                              <div class="service-bg smoth"></div>
-                              <i class="fa fa-picture-o"></i>
-                          </div>
-                          <div class="service-content">
-                              <a href="https://foundation.hkbu.edu.hk/zh/g246" class="popin" target="_blank">2022<br>
-                                Photo Gallery
-                                </a>
-                          </div>
-                      </div>
-                  </div>
-              </div>
-              <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6 sm-50 col-12">
-                  <div class="service-item">
-                      <div class="service-img">
-                          <img src="For newspaper supplement.png" alt="">
-                      </div>
-                      <div class="service-contents">
-                          <div class="service-icon">
-                              <div class="service-bg smoth"></div>
-                              <i class="fa fa-newspaper-o"></i>
-                          </div>
-                          <div class="service-content">
-                              <a class="popin" >2022<br>Newspaper Supplements
-                                </a>
-                              <a href="https://foundation.hkbu.edu.hk/sites/default/files/newsEvents/FN/2022/1110/HKBU%EF%BC%8EASHWORTH%20Golf%20Day%202022_HKET.pdf" class="popinsize2" target="_blank">Hong Kong Economic Times</a>
-                              <a href="https://foundation.hkbu.edu.hk/sites/default/files/newsEvents/FN/2022/1110/HKBU%EF%BC%8EASHWORTH%20Golf%20Day%202022_Singtao%20Daily.PDF" class="popinsize2" target="_blank">Sing Tao Daily</a>
-                          </div>
-                      </div>
-                  </div>
-              </div>
-          </div>
-      </div>
-  </div>
-  <!--Highlight section END-->
-  <!--Footer section-->
-  <footer class="footer-section black-bg">
-    <div class="footer-inner p-5">
-        <div class="container">
-            <div class="row">
-                <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12 text-center">
-                    <div class="ft-content">
-                        <div class="ft-info">
-                            <p class="text-center ft-title">For enquiries, please contact the staff of University Advancement Office:</p>
-                            <div class="ft-info-content">
-                                <div class="social pt-3">
-                                    <ul>
-                                        <li><span class="fa fa-phone"></span> 3411-7750 Tobey / 3411-7789 Brenda</li>
-                                        <li><span class="fa fa-fax"></span> 3411-5689</li>
-                                        <li><span class="fa fa-envelope"></span> golfday@hkbu.edu.hk</li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="copyright pb-1 pt-2">
-            <div class="container text-center">
-                <a class="links" href="https://www.hkbu.edu.hk/en.html" target="_blank">Hong Kong Baptist University</a>  <a class="links" href="https://uao.hkbu.edu.hk/en" target="_blank">University Advancement Office</a> © Copyright reserved
-            </div>
-        </div>
-    </div>
-</footer>
+.login-btn a:hover {
+  color: #fff;
+  background-color: #570404;
+  border-color: #570404;
+}
 
 
+@media screen and (max-width: 576px) {
+  .header-center .col-xl-3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .header-center .col-xl-6 {
+    text-align: center;
+  }
+  .header-center .col-xl-6 .htitle {
+    font-size: 18px;
+  }
+  .header-center .col-xl-3:last-child {
+    display: flex !important;
+  }
+  .header-center .col-xl-3:last-child .logo2 {
+    margin-right: -30px;
+  }
+  .header-center .col-xl-3:last-child .login-btn {
+    margin-left: 0px;
+  }
+  .logo2 img{
+    width: 60%;
+  }
+}
+
+/* CSS Setting of NAVBAR*/
+
+.navbar-wrapper {
+  margin-bottom: 0;
+}
+
+.navbar {
+  background-color: #f39800 !important;
+  padding-top: 0;
+  padding-bottom: 0;
+  height: 70px;
+}
+
+.navbar-toggler {
+  background-color: none;
+  color: #fff !important;
+  border: none;
+  margin: auto;
+}
+
+.navbar-toggler:focus, .navbar-toggler:active {
+  outline: none;
+  border: none;
+  box-shadow: none;
+}
+
+h6 {
+  color: #531e68 !important;
+  font-weight:bold;
+  text-align: center;
+  font-size: 16px;
+  height: 45px !important;
+  font-family: "Open Sans", "Microsoft JhengHei", sans-serif;
+}
+
+.navbar .navbar-nav .nav-link {
+  color: #531e68 !important;
+  font-weight: bold;
+  text-align: center;
+  font-size: auto;
+  height: auto !important;
+  font-family: "Open Sans", "Microsoft JhengHei", sans-serif;
+}
+
+.navbar-nav .nav-item {
+  margin-right: 10px;
+  padding-top: 5px;
+  letter-spacing: 1px;
+  font-family: "Open Sans", "Microsoft JhengHei", sans-serif;
+}
+
+.navbar-nav .nav-item:hover {
+  background-color: #fede82;
+}
+
+.navbar-nav .nav-item:hover a {
+  color: #0f357b !important;
+}
+
+.dropdown-menu {
+  background-color: #fede82;
+  border-radius: 0;
+}
+.dropdown-menu :hover {
+  background-color: #fdd000;
+}
+
+
+/* CSS Setting of Carousel*/
+
+
+.carousel-caption {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  text-align: left;
+  width: 70%;
+  height: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-size-adjust:70%;
+}
+.carousel-inner > .item > img, .carousel-inner > .item > a > img {
+  width: 100%;
+}
+.carousel-caption h2 {
+  font-family: 'Nunito Sans', sans-serif;
+  font-size:30px;
+  font-weight: 700;
+  line-height: 1.2;
+  text-shadow: 2px 2px 2px black;
+}
+.carousel-caption h3 {
+  font-family: 'Nunito Sans', sans-serif;
+  font-size:25px;
+  font-weight: 700;
+  line-height: 1.2;
+  text-shadow: 2px 2px 2px black;
+}
+.carousel-caption h4 {
+  font-family: 'Nunito Sans', sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  color: yellow;
+  line-height: 1.2;
+  text-shadow: 2px 2px 2px black;
+}
+.carousel-caption h5 {
+  font-family: 'Nunito Sans', sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  color: yellow;
+  line-height: 1.2;
+  text-shadow: 2px 2px 2px black;
+}
+/* CSS Setting of Subscrib-are*/
+
+.subscrib-area {
+  background-color:#f39800;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 40px;
+}
+
+.subscrib-area h2 {
+  font-size: 1.5rem;
+  color: #6C3483;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.subscrib-area a {
+  background-color: #fff;
+  color: #6C3483;
+  border: 2px solid #6C3483;
+  border-radius: 100px;
+  padding: 8px 30px;
+  font-size: 14px;
+  font-weight: 500;
+  transition: all 0.3s ease;
+}
+
+.subscrib-area  a:hover {
+  background-color: #ba3f21;
+  color: #fff;
+  font:bold;
+}
+
+/*CSS Setting of About Section */
+.aboutsection {
+  padding: 80px 0;
+}
+
+.about-contants {
+  text-align: left; 
+  max-width: 600px;
+}
+
+.about-img {
+  text-align: center; 
+}
+
+.about-img img {
+  max-width: 100%;
+  height: auto;
+}
+
+h1,h2,h3,h4,p{
+  font-family: "Open Sans", "Microsoft JhengHei", sans-serif;
+}
+.hcolorhtitle2 {
+  color: #a59561;
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin-bottom: 5px;
+  text-align: left;
+}
+
+.hcolor{
+  color: #a59561;
+  font-size: 1.3rem;
+  letter-spacing: 1px;
+  text-align: left;
+}
+
+.highcolorbfont {
+  color: #ac119f;
+  font-size: 1.1em;
+  font-weight: 700;
+  letter-spacing: 1px;
+  text-align: left;
+}
+
+.highcolorbfont2 {
+  color: #df31c2;
+  font-size: 1.1em;
+  font-weight: 800;
+  letter-spacing: 1px;
+  text-align: left;
+}
+
+.highcolorbfont3 {
+  color: #2485df;
+  font-size: 1.1em;
+  font-weight: 800;
+  letter-spacing: 1px;
+  text-align: left;
+}
+
+.bfont {
+  font-size: 1.1rem;
+  line-height: 1.6;
+  margin-bottom: 15px;
+  color: #817750;
+  font-weight: 700;
+  letter-spacing: 1px;
+  text-align: left;
+}
+
+.hcolorhtitle3 {
+  color: #a59561;
+  font-size: 1.2rem;
+  font-weight: 700;
+  margin-bottom: 5px;
+  text-align: left;
+  font-weight: bold;
+}
+
+.hcolor2{
+  color: #a59561;
+  font-size: 1.1rem;
+  letter-spacing: 1px;
+  text-align: left;
+}
+
+.highcolorbfont4 {
+  color: #ac119f;
+  font-size: 0.8rem;
+  font-weight: 700;
+  letter-spacing: 1px;
+  text-align: left;
+}
+
+.highcolorbfont5 {
+  color: #df31c2;
+  font-size: 0.8rem;
+  font-weight: 800;
+  letter-spacing: 1px;
+  text-align: left;
+}
+
+.highcolorbfont6 {
+  color: #2485df;
+  font-size: 0.8rem;
+  font-weight: 800;
+  letter-spacing: 1px;
+  text-align: left;
+}
+
+.bfont2 {
+  font-size: 0.8rem;
+  line-height: 1.6;
+  margin-bottom: 15px;
+  color: #817750;
+  font-weight: 700;
+  letter-spacing: 1px;
+  text-align: left;
+}
+
+.t-justify {
+  text-align: justify;
+}
+
+.blinks {
+  color: #f39800;
+  text-decoration: none;
+}
+
+/*CSS Setting of Highlight Section */
+
+.service-img img {
+  max-width: 100%; /* 讓圖片可以自適應父元素的寬度 */
+  height: auto; /* 保持圖片比例不變 */
+  display: block; /* 設定圖片為 block-level 元素，讓上下 margin 可以奏效 */
+  margin: 0 auto; /* 水平置中 */
+}
+.service-contents {
+  display: flex;
+  align-items: flex-start;
+  margin-top: 0px;
+  padding-top: 0px;
+}
+
+.service-content a {
+  flex-grow: 1;
+  padding-left: 20px;
+  padding-top: 10px;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 1.2;
+  margin-bottom: 10px;
+  display: block;
+  color: #577f38;
+  font-family: Poppins, "Microsoft JhengHei";
+  text-decoration: none;
+}
+.service-content .popinsize2 {
+  font-size: 14px;
+  line-height: 0.7;
+  font-weight: 100;
+}
+
+/*Hover Effect*/
+
+.service-icon {
+  color: #ee7300;
+  position: relative;
+  font-size: 30px;
+  padding: 10px;
+
+  margin-bottom: 30px;
+}
+
+.service-icon:hover i {
+  color: white;
+}
+.service-item:hover .service-icon .service-bg {
+  opacity: 1;
+}
+.service-item:hover .service-icon i {
+  color: white;
+}
+.service-item:hover .service-content {
+  color: white;
+}
+
+.service-bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 150%;
+  opacity: 0;
+  background-image: url('bg2.png');
+  background-repeat: no-repeat;
+  background-size:cover;
+  background-position: center;
+  z-index: -1;
+  transition: opacity 0.3s ease-in-out;
+}
+
+/*CSS Setting of Footer*/
+.black-bg {
+  background-color: #a59561;
+  color: #fff;
+  font-family: "Open Sans", "Microsoft JhengHei", sans-serif;
+  font-size: 14px;
+  line-height: 24px;
+}
+
+.social {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+.social ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.social ul li {
+  margin-right: 20px;
+}
+
+.copyright, .links {
+  font-size: 14px;
+  color: inherit;
+  text-decoration: none;
+}
+
+.links:hover {
+  color: #5a2eac;
+  text-decoration: none;
+}
 
 
 
+/* Responsive */
+@media (max-width: 1500px) {
+/* CSS Setting of Carousel*/
 
 
+  #carouselExampleCaptions .carousel-item img {
+    height: 300px;
+    object-fit: cover; 
+  }
+  .carousel-caption {
+    width: 90%;
+    height: 50%;
+    top: 50%;
+  }
+  .carousel-caption h1 {
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 1.2;
+  }
+  .carousel-caption h4 {
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 2rem;
+    font-weight: 700;
+    line-height: 1.2;
+  }
+
+  .subscrib-area h2 {
+    font-size: 1.8rem;
+    color: #6C3483;;
+    font-weight: 700;
+  }
+
+}
+
+@media screen and (max-width: 576px) {
+  .c-center {
+    justify-content: center !important;
+    text-align: center !important;
+  }
+  .c-right {
+    justify-content: flex-end !important;
+    text-align: right !important;
+  }
+}
 
 
-</body>
-</html>
