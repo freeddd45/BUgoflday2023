@@ -72,6 +72,7 @@
   background-color: #f39800 !important;
   padding-top: 0;
   padding-bottom: 0;
+  height: 70px;
 }
 
 .navbar-toggler {
@@ -100,8 +101,8 @@ h6 {
   color: #531e68 !important;
   font-weight: bold;
   text-align: center;
-  font-size: 18px;
-  height: 45px !important;
+  font-size: auto;
+  height: auto !important;
   font-family: "Open Sans", "Microsoft JhengHei", sans-serif;
 }
 
