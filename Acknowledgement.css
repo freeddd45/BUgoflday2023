@@ -173,14 +173,17 @@ h6 {
   box-shadow: none;
 }
 
-
+.table {
+  width: 100%;
+  color: #212529;
+}
 
 .navbar .navbar-nav .nav-link {
   color: #531e68 !important;
   font-weight: bold;
   text-align: center;
-  font-size: 18px;
-  height: 45px !important;
+  font-size: auto;
+  height: auto !important;
   font-family: "Open Sans", "Microsoft JhengHei", sans-serif;
 }
 
@@ -552,10 +555,7 @@ td {
   color: #9b7b29;
   font-weight: bold;
 }
-table {
-  border-collapse: collapse;
 
-}
 td.sc-head-b {
   color: #bb00bb;
   text-align: center;
