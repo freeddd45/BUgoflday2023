@@ -170,8 +170,8 @@ h6 {
   color: #531e68 !important;
   font-weight: bold;
   text-align: center;
-  font-size: 18px;
-  height: 45px !important;
+  font-size: auto;
+  height: auto !important;
   font-family: "Open Sans", "Microsoft JhengHei", sans-serif;
 }
 
