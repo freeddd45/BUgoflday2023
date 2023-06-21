@@ -11,8 +11,8 @@
 .prize{
   color: #c73541;
   font-weight: bold;
-  font-size: 15px;
-  line-height: 50px;
+  font-size: 14px;
+  padding: 10px;
 }
 .card {
   box-shadow: 0 4px 6px 0 rgba(22, 22, 26, 0.18);
@@ -244,8 +244,8 @@ h5{
   color: #531e68 !important;
   font-weight: bold;
   text-align: center;
-  font-size: 18px;
-  height: 45px !important;
+  font-size: auto;
+  height: auto !important;
   font-family: "Open Sans", "Microsoft JhengHei", sans-serif;
 }
 
@@ -416,7 +416,7 @@ h1,h2,h3,h4,p{
 
 .highcolorbfont {
   color: #9b0e79;
-  font-size: 1.1em;
+  font-size: 10em;
   font-weight: 700;
   letter-spacing: 1px;
 }
