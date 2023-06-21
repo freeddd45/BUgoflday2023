@@ -30,7 +30,17 @@
     font-size: 40px;
   }
 }
-
+b, strong {
+  font-weight: bolder;
+}
+ol.old2 li span {
+  font-weight: normal;
+}
+ol.old2 {
+  list-style: decimal outside;
+  margin-left: 25px;
+  font-weight: bold;
+}
 /*CSS Setting of Main Content*/
 
 .pt-80 {
@@ -47,19 +57,21 @@
   text-indent: initial;
   border-spacing: 2px;
   font-family: 'Open Sans', 'Microsoft JhengHei', sans-serif;
-  font-size: 14px;
+  font-size: 16px;
   line-height: 24px;
+  color: #6b551e;
 }
+
 .table {
   width: 100%;
   margin-bottom: 1rem;
-  color: #212529;
   border-collapse: collapse;
   text-indent: initial;
   border-spacing: 2px;
   font-family: 'Open Sans', 'Microsoft JhengHei', sans-serif;
   font-size: 14px;
   line-height: 24px;
+  text-align: justify;
 }
 
 .main-section p {
@@ -179,8 +191,8 @@ h6 {
   color: #531e68 !important;
   font-weight: bold;
   text-align: center;
-  font-size: 18px;
-  height: 45px !important;
+  font-size: auto;
+  height: auto !important;
   font-family: "Open Sans", "Microsoft JhengHei", sans-serif;
 }
 
@@ -303,7 +315,7 @@ input[name="flexRadioDefault"] {
 .purple-type{
   color: #6C3483;
   font-weight: bold;
-  margin-bottom: 20px;
+  margin-bottom: 22px;
   font-size: large;
 }
 .subscrib-area {
@@ -362,11 +374,17 @@ input[name="flexRadioDefault"] {
 }
 
 .about-contants {
-  text-align: left; 
   max-width: 600px;
+  text-align: justify;
+  color: #6b551e;
 }
-
-
+ol {
+  list-style-type: decimal;
+  color: #6b551e;
+}
+.old2{
+  color: #6b551e;
+}
 
 h1,h2,h3,h4,p{
   font-family: "Open Sans", "Microsoft JhengHei", sans-serif;
@@ -527,4 +545,6 @@ h1,h2,h3,h4,p{
   text-decoration: none;
 }
 
-
+body{
+  color: #6b551e;;
+}
